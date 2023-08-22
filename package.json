@@ -7,6 +7,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "engines" : { 
+    "node" : ">=16.0.0" 
+  },
   "keywords": [],
   "author": "Rohit Agarwal",
   "license": "ISC",
@@ -19,8 +22,12 @@
     "express": "^4.18.2",
     "get-stream": "^7.0.0",
     "getstream": "^8.1.5",
+    "node": "^20.5.0",
     "nodemon": "^2.0.22",
     "stream-chat": "^8.9.0",
     "twilio": "^4.13.0"
   }
+  
+ 
+
 }
